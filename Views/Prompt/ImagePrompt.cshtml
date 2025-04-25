@@ -1,0 +1,23 @@
+﻿@model string
+
+@{
+    ViewData["Title"] = "Manga Görsel Üret";
+}
+
+<h2>Manga Tarzı Görsel Üretimi</h2>
+
+<form asp-action="ImagePrompt" method="post">
+    <div class="form-group">
+        <label for="prompt">Prompt:</label>
+        <textarea name="prompt" class="form-control" rows="3" placeholder="Bir manga sahnesi tarif et...">@ViewBag.Prompt</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Gönder</button>
+</form>
+
+@if (ViewBag.ImageBase64 != null)
+{
+    <div class="mt-4">
+        <h4>Oluşturulan Görsel:</h4>
+        <img src="data:image/png;base64,@ViewBag.ImageBase64" class="img-fluid border rounded" />
+    </div>
+}
