@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SendingPrompt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cf902186ff061a830d3f3b8a39e69a8800d3413")]
 [assembly: System.Reflection.AssemblyProductAttribute("SendingPrompt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SendingPrompt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -32,3 +32,4 @@ C:\Users\erdo\source\repos\SendingPrompt\SendingPrompt\obj\Debug\net8.0\refint\S
 C:\Users\erdo\source\repos\SendingPrompt\SendingPrompt\obj\Debug\net8.0\SendingPrompt.pdb
 C:\Users\erdo\source\repos\SendingPrompt\SendingPrompt\obj\Debug\net8.0\SendingPrompt.genruntimeconfig.cache
 C:\Users\erdo\source\repos\SendingPrompt\SendingPrompt\obj\Debug\net8.0\ref\SendingPrompt.dll
+C:\Users\erdo\source\repos\SendingPrompt\SendingPrompt\obj\Debug\net8.0\SendingPrompt.sourcelink.json
